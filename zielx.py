@@ -5,13 +5,13 @@ import threading
 import os , sys
 
 os.system("clear") 
-print ('''
+print ('''\033[96m
 ╔═╗╦╔═╗╦  ═╗ ╦
 ╔═╝║║╣ ║  ╔╩╦╝
-╚═╝╩╚═╝╩═╝╩ ╚═''')
-print("#=======TCP UDP DDOS TOOLS============#                          ")
-print("$=======AJARIN AKU JADI HENGKEL=======$                          ")
-print("+=======Tools Codes By : ZieLx======+                          ")
+╚═╝╩╚═╝╩═╝╩ ╚═ \033[96m''')
+print("\033[96m#=======TCP UDP DDOS TOOLS============#                          \033[96m")
+print("\033[96m$=======AJARIN AKU JADI HENGKEL=======$                          \033[96m")
+print("\033[96m+=======Tools Codes By : ZieLx======+                          \033[96m")
 
 choice = str(input(" UDP/TCP: "))
 ip = str(input(" HOST/IP TARGET: "))
