@@ -4,6 +4,7 @@ import socket
 import threading
 import os , sys
 
+os.system("clear") 
 print ('''
 ╔═╗╦╔═╗╦  ═╗ ╦
 ╔═╝║║╣ ║  ╔╩╦╝
