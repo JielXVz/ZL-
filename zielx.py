@@ -13,11 +13,11 @@ print("\033[96m#=======TCP UDP DDOS TOOLS============#                          
 print("\033[96m$=======AJARIN AKU JADI HENGKEL=======$                          \033[96m")
 print("\033[96m+=======Tools Codes By : ZieLx======+                          \033[96m")
 
-choice = str(input(" UDP/TCP: "))
-ip = str(input(" HOST/IP TARGET: "))
-port = int(input(" PORT TARGET : "))
-times = int(input(" TIMES : "))
-threads = int(input(" THREADS : "))
+choice = str(input("\033[92m UDP/TCP: \033[92m"))
+ip = str(input("\033[92m HOST/IP TARGET: \033[92m"))
+port = int(input("\033[92m PORT TARGET : \033[92m"))
+times = int(input("\033[92m TIMES : \033[92m"))
+threads = int(input("\033[92m THREADS : \033[92m"))
 os.system("clear")
 def udp():
 	data = random._urandom(900)
